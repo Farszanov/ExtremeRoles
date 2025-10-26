@@ -866,7 +866,7 @@ public sealed class Vigilante : MultiAssignRoleBase, IRoleAutoBuildAbility, IRol
 	public ExtremeAbilityButton Button { get; set; }
 	public Vigilante(
         ) : base(
-			RoleCore.BuildNeutral(ExtremeRoleId.Vigilante, ColorPalette.VigilanteFujiIro),
+			RoleCore.BuildCrewmate(ExtremeRoleId.Vigilante, ColorPalette.VigilanteFujiIro),
             false, false, false, false,
             tab: OptionTab.CombinationTab)
     {
